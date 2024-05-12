@@ -154,3 +154,4 @@ cython_debug/
 # Additional files to ignore
 **/.DS_Store
 data/data.csv
+.virtual_documents/
