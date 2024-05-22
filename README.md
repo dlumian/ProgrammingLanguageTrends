@@ -11,6 +11,8 @@ Primary analysis uses [Prophet](https://facebook.github.io/prophet/docs/quick_st
   - data.csv 
     - Week: Object type with date data in month/day/year format
     - Python/Java/C++: Cols with search count of that language for each week
+- environment
+  - conda.yml file contains list of all required packages for this repo
 - imgs
   - folder with images created throughout analysis
   - img paths are used in this readme, so moving or renaming them may break links
