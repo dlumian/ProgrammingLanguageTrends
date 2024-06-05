@@ -1,33 +1,23 @@
 # ProgrammingLanguageTrends
- Exploratory analysis of Kaggle dataset on programming languages.
 
-Original data found at: https://www.kaggle.com/datasets/nextmillionaire/programming-languages-trend-over-time/code
+Exploratory analysis using [Kaggle dataset](https://www.kaggle.com/datasets/nextmillionaire/programming-languages-trend-over-time/code) on programming languages.
 
-Primary analysis uses [Prophet](https://facebook.github.io/prophet/docs/quick_start.html) model for forecasting.
+Primary forecasting model is [Prophet](https://facebook.github.io/prophet/docs/quick_start.html).
 
 ## Folder Structure
 - data
-  - archive.zip (contains zipped csv of data which should be renamed to data.csv in the data folder)
+  - [archive.zip](./data/archive.zip) (zipped data which should be extracted and renamed to data.csv in the data folder)
   - data.csv 
     - Week: Object type with date data in month/day/year format
     - Python/Java/C++: Cols with search count of that language for each week
 - environment
-  - conda.yml file contains list of all required packages for this repo
+  - [conda.yml](./environment/conda.yml): list of all required packages
 - imgs
-  - folder with images created throughout analysis
+  - Location for images generated to be stored
   - img paths are used in this readme, so moving or renaming them may break links
 - notebooks
-  - InitialEDA.ipynb
-    - ingest data
-    - skimpy analysis
-    - basic summary descriptive stats
-  - PropheModels.ipynb 
-    - forecast data to predict next time points
-    - visualize data and trends
-- LICENSE
-  - MIT license for usage
-- README.md
-  - This file with project details, results, and summary information
+  - [InitialEDA.ipynb](./notebooks/InitialEDA.ipynb): data investigation and summary statistics
+  - [ProphetModels.ipynb](./notebooks/ProphetModels.ipynb): primary analysis
     
 ## Data Summary
 
