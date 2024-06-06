@@ -11,7 +11,7 @@ Primary forecasting model is [Prophet](https://facebook.github.io/prophet/docs/q
     - Week: Object type with date data in month/day/year format
     - Python/Java/C++: Cols with search count of that language for each week
 - environment
-  - [conda.yml](./environment/conda.yml): list of all required packages
+  - [environment.yml](./environment/environment.yml): list of all required packages
 - imgs
   - Location for images generated to be stored
   - img paths are used in this readme, so moving or renaming them may break links
